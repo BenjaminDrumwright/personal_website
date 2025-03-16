@@ -23,6 +23,7 @@ jobs:
         run: |
           hugo --minify
           touch public/.nojekyll  # Ensure Jekyll is disabled
+          echo "yourcustomdomain.com" > public/CNAME  # Preserve custom domain ✅
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
