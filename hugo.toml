@@ -1,4 +1,4 @@
-baseURL = "https://BenjaminDrumwright.github.io/personal_website/"
+baseURL = "http://www.benjamindrumwright.com"
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "LoveIt"
