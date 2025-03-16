@@ -10,7 +10,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: true  # This fetches submodules
+          submodules: recursive  # This fetches submodules
           fetch-depth: 0     # Ensures full history for submodules
 
       - name: Install Hugo
