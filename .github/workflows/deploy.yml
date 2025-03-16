@@ -10,8 +10,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # This fetches submodules
-          fetch-depth: 0     # Ensures full history for submodules
+          submodules: recursive
+          fetch-depth: 0
 
       - name: Install Hugo
         uses: peaceiris/actions-hugo@v2
@@ -19,12 +19,15 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build site
-        run: hugo --minify
+      - name: Build Hugo site
+        run: |
+          hugo --minify
+          touch public/.nojekyll  # Ensure Jekyll is disabled
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          publish_branch: gh-pages
 
