@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://example.org/</loc><lastmod>2025-03-15T21:12:32-05:00</lastmod></url><url><loc>https://example.org/posts/</loc><lastmod>2025-03-15T21:12:32-05:00</lastmod></url><url><loc>https://example.org/categories/</loc></url><url><loc>https://example.org/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/personal_website/posts/about/</loc>
+    <lastmod>2025-03-15T21:12:32-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/personal_website/</loc>
+    <lastmod>2025-03-15T21:12:32-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/personal_website/posts/</loc>
+    <lastmod>2025-03-15T21:12:32-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/personal_website/posts/projects/oregontrail/</loc>
+    <lastmod>2025-03-15T21:10:31-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/personal_website/posts/projects/spot/</loc>
+    <lastmod>2025-03-15T21:10:14-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/personal_website/posts/projects/embedded_game_bricks/</loc>
+    <lastmod>2025-03-15T20:57:14-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/personal_website/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/personal_website/tags/</loc>
+  </url>
+</urlset>
