@@ -3,3 +3,31 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "LoveIt"
 
+[params]
+  defaultTheme = "dark"   # Change theme mode
+  title = "My Awesome Site"
+  description = "Welcome to my personal website!"
+  images = ["images/my-image.jpg"]
+
+[params.author]
+  name = "Benjamin Drumwright"
+  email = "benjamindrumwright@gmail.com"
+
+[params.search]
+  enable = true   # Correctly enabling search
+
+[params.footer]
+  hugo = false # gets rid of hugo liscense at the bottom
+
+[params.header.title]
+  name = "Home" # changes title topleft to home
+
+[params.social]
+  GitHub = "https://github.com/BenjaminDrumwright"
+  Linkedin = "www.linkedin.com/in/benjamin-drumwright312"
+  Email = "benjamindrumwright@gmail.com"
+
+[params.home.profile]
+  gravatarEmail = "benjamindrumwright@gmail.com"
+  subtitle = "Welcome to my site"
+
